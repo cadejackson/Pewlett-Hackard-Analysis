@@ -74,3 +74,13 @@ ON e.emp_no = de.emp_no
 WHERE (de.from_date BETWEEN '2002-01-01' AND '2002-12-31') AND (de.to_date = '9999-01-01')
 GROUP BY  t.title
 ORDER BY COUNT(e.emp_no) DESC;
+
+-- Get number of current managers
+SELECT COUNT(emp_no)
+FROM titles
+WHERE title = 'Manager' AND to_date = '9999-01-01'
+
+-- Get number of current employees
+SELECT COUNT(emp_no)
+FROM titles
+WHERE to_date = '9999-01-01'
