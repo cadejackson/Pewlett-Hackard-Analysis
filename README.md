@@ -12,12 +12,15 @@ The objective of this project was to help Bobby determine the number of retiring
 
 
 Retirement Titles Example
+
 ![Retirement Titles](https://github.com/cadejackson/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.png)
 
 Unique Titles Example
+
 ![Unique Titles](https://github.com/cadejackson/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.png)
 
 Retiring Titles Example
+
 ![Retiring Titles](https://github.com/cadejackson/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.png)
 
 ## Summary
